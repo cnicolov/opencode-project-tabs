@@ -1,0 +1,28 @@
+{
+  "name": "opencode-project-tabs",
+  "version": "0.1.0",
+  "description": "OpenCode TUI plugin that groups session tabs by project and shows when each was last active",
+  "license": "MIT",
+  "author": "Kristiyan Nikolov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnicolov/opencode-project-tabs.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "tabs"
+  ],
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tui": "./tui.tsx"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.28",
+    "@opentui/core": ">=0.5.17",
+    "@opentui/solid": ">=0.5.17",
+    "solid-js": ">=1.9.0"
+  }
+}
